@@ -7,7 +7,7 @@
 	--bs-pink:#d63384;
 	--bs-red:#dc3545;
 	--bs-orange:#fd7e14;
-	--bs-yellow:#ffc107;
+	--bs-yellow:#FFB169;
 	--bs-green:#198754;
 	--bs-teal:#20c997;
 	--bs-cyan:#0dcaf0;
@@ -24,15 +24,15 @@
 	--bs-gray-700:#495057;
 	--bs-gray-800:#343a40;
 	--bs-gray-900:#212529;
-	--bs-primary:#0d6efd;
-	--bs-secondary:#6c757d;
+	--bs-primary:#FFB169;
+	--bs-secondary:#0a0a0a;
 	--bs-success:#198754;
 	--bs-info:#0dcaf0;
 	--bs-warning:#ffc107;
 	--bs-danger:#dc3545;
 	--bs-light:#f8f9fa;
 	--bs-dark:#212529;
-	--bs-primary-rgb:13,110,253;
+	--bs-primary-rgb: 255, 177, 105;
 	--bs-secondary-rgb:108,117,125;
 	--bs-success-rgb:25,135,84;
 	--bs-info-rgb:13,202,240;
@@ -91,7 +91,7 @@
 	--bs-link-color:#080808;
 	--bs-link-color-rgb:13,110,253;
 	--bs-link-decoration:underline;
-	--bs-link-hover-color:#f8ae43;
+	--bs-link-hover-color:#ffdcaa;
 	--bs-link-hover-color-rgb:10,88,202;
 	--bs-code-color:#d63384;
 	--bs-highlight-bg:#fff3cd;
@@ -2659,7 +2659,9 @@ textarea.form-control-lg{
 	border-radius:var(--bs-btn-border-radius);
 	background-color:var(--bs-btn-bg);
 	transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
+	
 }
+
 @media (prefers-reduced-motion:reduce){
 	.btn{
 		transition:none
@@ -3066,7 +3068,7 @@ textarea.form-control-lg{
 	--bs-dropdown-link-hover-color:var(--bs-body-color);
 	--bs-dropdown-link-hover-bg:var(--bs-tertiary-bg);
 	--bs-dropdown-link-active-color:#fff;
-	--bs-dropdown-link-active-bg:#0d6efd;
+	--bs-dropdown-link-active-bg:#ffffff;
 	--bs-dropdown-link-disabled-color:var(--bs-tertiary-color);
 	--bs-dropdown-item-padding-x:1rem;
 	--bs-dropdown-item-padding-y:0.25rem;
@@ -7408,10 +7410,10 @@ textarea.form-control-lg{
 	padding-top:1rem!important
 }
 .pt-4{
-	padding-top:1.5rem!important
+	padding-top:2.5rem!important
 }
 .pt-5{
-	padding-top:3rem!important
+	padding: top 5px;rem!important
 }
 .pe-0{
 	padding-right:0!important
@@ -7447,7 +7449,7 @@ textarea.form-control-lg{
 	padding-bottom:1.5rem!important
 }
 .pb-5{
-	padding-bottom:3rem!important
+	padding-bottom:7rem!important
 }
 .ps-0{
 	padding-left:0!important

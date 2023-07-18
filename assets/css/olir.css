@@ -87,10 +87,6 @@ li.nav-link a {
 
 }
 
-h2{
-  text-align:center;
-  padding: 20px;
-}
 /* Slider */
 
 .slick-slide {
@@ -211,3 +207,131 @@ h2{
 
 /* It is ready */
 /* Have a good time */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section-header, .steps-header, .steps-name {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+.steps-header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.steps-timeline {
+  outline: 1px dashed rgba(0, 0, 0, 0);
+}
+.step-box {
+    position: relative;
+}
+.border-info {
+    position: absolute;
+    top: -23px;
+    right: -52%;
+}
+@media screen and (max-width: 500px) {
+  .steps-timeline {
+    border-left: 1px solid #FFFFFF;
+    margin-left: 25px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .steps-timeline {
+    border-top: 1px solid #FFFFFF;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-left: 19%;
+    margin-right: 19%;
+  }
+}
+.steps-timeline:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.steps-one, .steps-two, .steps-three, .steps-four {
+  outline: 1px solid rgba(0, 128, 0, 0);
+}
+@media screen and (max-width: 500px) {
+  .steps-one, .steps-two, .steps-three, .steps-four {
+    margin-left: -30px; 
+  }
+}
+@media screen and (min-width: 500px) {
+  .steps-one, .steps-two, .steps-three, .steps-four {
+    float: left;
+    width: 33%;
+    margin-top: -65px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .steps-one, .steps-two {
+    padding-bottom: 40px;
+  }
+  
+}
+@media screen and (min-width: 500px) {
+  .steps-one {
+    margin-left:  -60px;
+    margin-right: 05px;
+  }
+  @media screen and (min-width: 500px) {
+    .steps-two {
+      margin-left: -100px;
+      margin-right: 36px;
+    }
+}
+}
+@media screen and (max-width: 500px) {
+  .steps-three, .steps-four {
+    margin-bottom: -100%;
+  }
+}
+@media screen and (min-width: 500px) {
+  .steps-three {
+    margin-left: -100px;
+    margin-right: 60px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .steps-four {
+    margin-left: 820px;
+    margin-right: 500px;
+    margin-top: -90px;
+  }
+}
+.steps-img {
+  display: block;
+  margin: auto;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;  
+}
+@media screen and (max-width: 500px) {
+  .steps-img {
+    float: left;  
+  }
+}
+.steps-name {
+  margin: auto;
+}
+@media screen and (min-width: 500px) {
+  .steps-name {
+    text-align: center;
+    position: absolute;
+    top: 28px;
+    left: 152px;
+    font-size: 13px; 
+  }
+}
+
