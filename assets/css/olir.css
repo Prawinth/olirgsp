@@ -7,7 +7,7 @@
 }
 
 body {
-  min-height: 100vh;
+  min-height: 100%;
   font-family: "Roboto", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -94,7 +94,7 @@ li.nav-link a {
 }
 
 .slick-slide img {
-    width: 100%;
+    width: 70%;
 }
 
 .slick-slider
@@ -167,8 +167,8 @@ li.nav-link a {
 {
     display: none;
     float: left;
-    height: 100%;
-    min-height: 1px;
+    height: 50px;
+    min-height: 150px;
 }
 [dir='rtl'] .slick-slide
 {
@@ -235,8 +235,8 @@ body {
 }
 .border-info {
     position: absolute;
-    top: -23px;
-    right: -52%;
+    top: 5px;
+    right: 70px;
 }
 @media screen and (max-width: 500px) {
   .steps-timeline {
@@ -281,7 +281,7 @@ body {
 }
 @media screen and (min-width: 500px) {
   .steps-one {
-    margin-left:  -60px;
+    margin-left:  -50px;
     margin-right: 05px;
   }
   @media screen and (min-width: 500px) {
